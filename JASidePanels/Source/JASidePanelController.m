@@ -595,6 +595,8 @@ static char ja_kvoContext;
 }
 
 - (void)_centerPanelTapped:(__unused UIGestureRecognizer *)gesture {
+    if (!_recognizesPanGesture)
+        return;
     [self _showCenterPanel:YES bounce:NO];
 }
 
