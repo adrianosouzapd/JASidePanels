@@ -35,7 +35,6 @@ static char ja_kvoContext;
 
 @property (nonatomic, readwrite) JASidePanelState state;
 @property (nonatomic, weak) UIViewController *visiblePanel;
-@property (nonatomic, strong) UIView *tapView;
 
 // panel containers
 @property (nonatomic, strong) UIView *leftPanelContainer;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'JASidePanels'
-  s.version     = '1.3.2.99'
+  s.version     = '1.3.2.999'
   s.authors     = { 'Jesse Andersen' => 'https://github.com/gotosleep' }
   s.homepage    = 'https://github.com/gotosleep/JASidePanels'
   s.summary     = 'Reveal side ViewControllers similar to Facebook/Paths menu '
